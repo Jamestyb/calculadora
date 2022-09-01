@@ -1,6 +1,32 @@
+img, embed, object, video{
+
+    max-width: 100%;
+} 
+nav, a button{
+
+min-width: 48px;
+min-height: 48px;
+
+}
+
 body{
 
-    background-color: cyan;
+background-color: beige;
 
 
 }
+
+@media screen and (max-width:500px){
+
+
+body{
+
+    background-color: azure;
+
+
+
+}
+
+}
+
+
